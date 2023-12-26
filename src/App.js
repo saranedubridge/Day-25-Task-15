@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route,  } from 'react-router-dom';
 import Dashboard from './components/DashboardPage/Dashboard';
 import ButtonPage from './components/ComponentsPage/ButtonsPage/ButtonPage';
 import Cards from './components/ComponentsPage/CardsPage/Cards';
@@ -59,7 +59,7 @@ function App() {
           setOpen1={setOpen1} handleOpen1={handleOpen1} open2={open2} setOpen2={setOpen2} handleOpen2={handleOpen2}/>} /> 
         <Route path="/tables" element={<Tables open={open} setOpen={setOpen} handleOpen={handleOpen} open1={open1}
           setOpen1={setOpen1} handleOpen1={handleOpen1} open2={open2} setOpen2={setOpen2} handleOpen2={handleOpen2}/>} />
-      </Routes>
+      </Routes> 
     </div>
   )
 }

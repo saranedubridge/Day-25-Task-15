@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import LogoutModal from '../LogoutModal'
+// import LogoutModal from '../LogoutModal'
 
 const Login = () => {
   return (
@@ -100,7 +100,7 @@ const Login = () => {
                       </div>
                       <div className="text-center">
                         <Link to="/register">
-                          <a className="small" href="register.html">
+                          <a className="small" href="register.html"> 
                             Create an Account!
                           </a>
                         </Link>

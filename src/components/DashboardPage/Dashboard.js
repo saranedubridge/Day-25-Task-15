@@ -8,7 +8,7 @@ import Row1 from './Row1'
 import Row2 from './Row2'
 import Row3 from './Row3'
 import LogoutModal from '../LogoutModal'
-import Collapse from 'react-bootstrap/Collapse';
+// import Collapse from 'react-bootstrap/Collapse';
 
 const Dashboard = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpen,
   setOpen1,setOpen2}) => {

@@ -1,5 +1,7 @@
 import React from 'react'
-import { Doughnut } from 'react-chartjs-2';
+
+
+// import { Doughnut } from 'react-chartjs-3';
 import {Chart as ChartJS,
   CategoryScale,
   LinearScale,
@@ -8,6 +10,7 @@ import {Chart as ChartJS,
   Title,
   Tooltip,
   Legend} from 'chart.js'
+  import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(
     CategoryScale,
     LinearScale,
