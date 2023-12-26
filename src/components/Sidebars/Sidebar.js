@@ -66,6 +66,7 @@ const Sidebar = ({ sidebarToggle, setSidebarToggle, handleSidebar,handleOpen,han
       
         <a
           className="nav-link collapsed "
+          href="#!"
           
           data-toggle="collapse"
           data-target="#collapseTwo"
