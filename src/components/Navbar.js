@@ -253,7 +253,7 @@ const Navbar = ({ sidebarToggle, setSidebarToggle, handleSidebar }) => {
             <img
               className="img-profile rounded-circle"
               src="img/undraw_profile.svg"
-              alt="User Profile Picture"
+              alt="User"
             />
           </a>
           {/* <!-- Dropdown - User Information --> */}
