@@ -131,7 +131,7 @@ const Cards = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpen,
                       <div class="dropdown no-arrow">
                         <a
                           class="dropdown-toggle"
-                          href="#"
+                          href="#!"
                           role="button"
                           id="dropdownMenuLink"
                           data-toggle="dropdown"
@@ -145,14 +145,14 @@ const Cards = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpen,
                           aria-labelledby="dropdownMenuLink"
                         >
                           <div class="dropdown-header">Dropdown Header:</div>
-                          <a class="dropdown-item" href="#">
+                          <a class="dropdown-item" href="#!">
                             Action
                           </a>
-                          <a class="dropdown-item" href="#">
+                          <a class="dropdown-item" href="#!">
                             Another action
                           </a>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">
+                          <a class="dropdown-item" href="#!">
                             Something else here
                           </a>
                         </div>
@@ -172,7 +172,7 @@ const Cards = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpen,
                   <div class="card shadow mb-4">
                     {/* <!-- Card Header - Accordion --> */}
                     <a
-                      href="#collapseCardExample"
+                      href="#!collapseCardExample"
                       class="d-block card-header py-3"
                       data-toggle="collapse"
                       role="button"

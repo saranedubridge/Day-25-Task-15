@@ -227,11 +227,11 @@ const ButtonPage = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpe
                         <code>_buttons.scss</code>
                         file.
                       </p>
-                      <a href="#" className="btn btn-google btn-block">
+                      <a href="#!" className="btn btn-google btn-block">
                         <i className="fab fa-google fa-fw"></i>
                         .btn-google
                       </a>
-                      <a href="#" className="btn btn-facebook btn-block">
+                      <a href="#!" className="btn btn-facebook btn-block">
                         <i className="fab fa-facebook-f fa-fw"></i>
                         .btn-facebook
                       </a>
@@ -267,7 +267,7 @@ const ButtonPage = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpe
 
                       <p>Also works with small and large button classes!</p>
                       <a
-                        href="#"
+                        href="#!"
                         className="btn btn-primary btn-icon-split btn-sm"
                       >
                         <span className="icon text-white-50">
@@ -277,7 +277,7 @@ const ButtonPage = ({ handleOpen,handleOpen1,handleOpen2,open,open1,open2,setOpe
                       </a>
                       <div className="my-2"></div>
                       <a
-                        href="#"
+                        href="#!"
                         className="btn btn-primary btn-icon-split btn-lg"
                       >
                         <span className="icon text-white-50">

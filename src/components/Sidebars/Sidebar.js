@@ -104,7 +104,7 @@ const Sidebar = ({ sidebarToggle, setSidebarToggle, handleSidebar,handleOpen,han
       <li className="nav-item">
         <a
           className="nav-link collapsed"
-          href="#"
+          href="#!"
           data-toggle="collapse"
           data-target="#collapseUtilities"
           aria-expanded={open1}
@@ -161,7 +161,7 @@ const Sidebar = ({ sidebarToggle, setSidebarToggle, handleSidebar,handleOpen,han
       <li className="nav-item">
         <a
           className="nav-link collapsed"
-          href="#"
+          href="#!"
           data-toggle="collapse"
           data-target="#collapsePages"
           aria-expanded={open2}

@@ -3,7 +3,7 @@ import React from 'react'
 const SplitButton = ({ button, text, icon, content }) => {
   return (
     <div>
-      <a href="#" className={button}>
+      <a href="#!" className={button}>
         <span className={text}>
           <i className={icon}></i>
         </span>
